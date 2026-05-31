@@ -1,0 +1,521 @@
+/* @theme hci-purple */
+
+/*
+ * Marp theme based on the attached reference images.
+ * Usage in slide.md:
+ * ---
+ * marp: true
+ * theme: hci-purple
+ * paginate: true
+ * ---
+ *
+ * Slide classes:
+ * <!-- _class: title -->    : title slide
+ * <!-- _class: section -->  : chapter divider slide
+ * default / <!-- _class: content --> : normal content slide
+ */
+
+@import "default";
+
+:root {
+  --hci-purple: #7030a0;
+  --hci-purple-light: #a177c0;
+  --hci-navy: #31538f;
+  --hci-deep-navy: #172c51;
+  --hci-text: #222a35;
+  --hci-black: #000000;
+  --hci-gray: #595959;
+  --hci-light-gray: #bfbfbf;
+  --hci-bg: #ffffff;
+  --hci-footer-height: 7.7%;
+  --hci-safe-bottom: 5.6rem;
+  --hci-page-x: 4.2rem;
+  --hci-page-y: 1.7rem;
+}
+
+/* ===== Base ===== */
+section {
+  width: 1280px;
+  height: 720px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 var(--hci-safe-bottom) 0;
+  background: var(--hci-bg);
+  color: var(--hci-text);
+  font-family:
+    "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  text-shadow: none;
+}
+
+/* purple footer bar + thin navy top line */
+section::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--hci-footer-height);
+  background: var(--hci-purple);
+  border-top: 3px solid var(--hci-navy);
+}
+
+/* Marp page number. Works when paginate: true */
+section::after {
+  z-index: 2;
+  right: var(--hci-page-x);
+  bottom: var(--hci-page-y);
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+section > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Typography ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+table,
+th,
+td,
+blockquote {
+  font-family: inherit;
+  color: inherit;
+  text-align: left;
+  line-height: 1.45;
+  text-shadow: none;
+}
+
+strong {
+  font-weight: 800;
+  color: var(--hci-black);
+}
+
+a,
+.purple,
+.emphasis {
+  color: var(--hci-purple);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.12em;
+}
+
+.small,
+.note,
+.footnote,
+.footnotes,
+.caption {
+  color: var(--hci-gray);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.note,
+.footnote,
+.caption {
+  margin: 0.6rem 4.8rem 0 4.8rem;
+}
+
+sup {
+  font-size: 0.65em;
+  vertical-align: super;
+}
+
+mark {
+  color: inherit;
+  background: linear-gradient(transparent 58%, rgba(112, 48, 160, 0.22) 58%);
+  padding: 0 0.08em;
+}
+
+/* ===== Normal content slide ===== */
+section:not(.title):not(.section) h1:first-child,
+section.content h1:first-child {
+  margin: 2.5rem 2.4rem 1.1rem 2.4rem;
+  padding: 0 0 0.55rem 0;
+  border-bottom: 2px solid var(--hci-text);
+  color: var(--hci-black);
+  font-size: 1.85rem;
+  font-weight: 800;
+  line-height: 1.18;
+}
+
+/* Lead topic line with the vertical purple bar */
+section:not(.title):not(.section) h2,
+section.content h2 {
+  margin: 1.2rem 2.6rem 1rem 2.6rem;
+  padding: 0.05rem 0 0.05rem 1.2rem;
+  border-left: 0.65rem solid var(--hci-purple);
+  color: var(--hci-black);
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+section:not(.title):not(.section) h3,
+section.content h3 {
+  margin: 1rem 2.6rem 0.6rem 2.6rem;
+  color: var(--hci-text);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+section:not(.title):not(.section) p,
+section.content p {
+  margin: 0.45rem 2.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+section:not(.title):not(.section) ul,
+section:not(.title):not(.section) ol,
+section.content ul,
+section.content ol {
+  margin: 0.45rem 2.8rem 0.45rem 4rem;
+  padding: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+section:not(.title):not(.section) li,
+section.content li {
+  margin: 0.45rem 0;
+  padding-left: 0.1rem;
+}
+
+section:not(.title):not(.section) ul > li,
+section.content ul > li {
+  list-style-type: disc;
+}
+
+section:not(.title):not(.section) ol > li,
+section.content ol > li {
+  list-style-type: decimal;
+}
+
+/* Bigger explanation block used for the main takeaway */
+.lead,
+.message {
+  margin: 1.5rem 2.6rem 1rem 2.6rem;
+  color: var(--hci-purple);
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.12em;
+}
+
+/* Slightly smaller explanation under a lead */
+.sublead {
+  margin: -0.25rem 2.6rem 0.9rem 2.6rem;
+  color: var(--hci-text);
+  font-size: 0.98rem;
+  font-weight: 800;
+}
+
+/* ===== Title slide ===== */
+section.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 3rem var(--hci-safe-bottom) 3rem;
+}
+
+section.title h1 {
+  margin: -1.6rem 0 0.2rem 0;
+  color: var(--hci-black);
+  text-align: left;
+  font-size: 3.9rem;
+  font-weight: 900;
+  line-height: 1.12;
+}
+
+section.title h2 {
+  margin: 0.15rem 0 2.6rem 0;
+  color: var(--hci-black);
+  text-align: left;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+section.title h3,
+section.title p {
+  margin: 0;
+  color: var(--hci-gray);
+  text-align: left;
+  font-size: 1.55rem;
+  font-weight: 800;
+}
+
+/* ===== Chapter divider slide ===== */
+section.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3rem var(--hci-safe-bottom) 3rem;
+}
+
+section.section h1 {
+  margin: 5rem 0 0 0;
+  color: var(--hci-black);
+  text-align: left;
+  font-size: 5.1rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+section.section h1::after {
+  content: "";
+  display: block;
+  width: 10.4rem;
+  height: 0.72rem;
+  margin: 1.05rem auto 4.4rem auto;
+  background: var(--hci-light-gray);
+}
+
+section.section h2 {
+  margin: 0;
+  color: var(--hci-black);
+  text-align: left;
+  font-size: 3.9rem;
+  font-weight: 900;
+  line-height: 1.12;
+}
+
+section.section p {
+  margin: 2rem 0 0 0;
+  color: var(--hci-gray);
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+/* ===== Utility layouts ===== */
+.columns,
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+  margin: 1rem 2.4rem;
+  align-items: start;
+}
+
+.columns-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 1rem 2.4rem;
+  align-items: start;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 0.9rem 2.2rem 0 2.2rem;
+}
+
+.card {
+  min-height: 15.5rem;
+  box-sizing: border-box;
+  padding: 1rem 0.9rem;
+  border: 3px solid var(--hci-deep-navy);
+  border-radius: 1.1rem;
+  background: #ffffff;
+  text-align: left;
+}
+
+.card h3,
+.card p,
+.card li {
+  text-align: left;
+}
+
+.card h3 {
+  margin: 0.2rem 0 0.6rem 0 !important;
+  color: var(--hci-black) !important;
+  font-size: 1.85rem !important;
+  font-weight: 800 !important;
+}
+
+.card p {
+  margin: 0.25rem 0 !important;
+  color: var(--hci-gray) !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+}
+
+.card img {
+  display: block;
+  max-width: 74%;
+  max-height: 5.1rem;
+  object-fit: contain;
+  margin: 0.1rem auto 0.4rem auto;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 6rem;
+  margin-top: 0.6rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.5rem;
+  background: #e9c7ed;
+  color: var(--hci-purple);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.badge.blue {
+  background: #b4c7e7;
+  color: var(--hci-navy);
+}
+
+.badge.green {
+  background: #c5e0b4;
+  color: #5a8f3c;
+}
+
+.badge.gray {
+  background: #d9d9d9;
+  color: var(--hci-black);
+}
+
+/* ===== Term explanation boxes ===== */
+.term {
+  margin: 0.8rem 2.6rem;
+  padding: 0.75rem 1rem;
+  border-left: 0.45rem solid var(--hci-purple);
+  background: #f7f3fa;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.term strong {
+  color: var(--hci-purple);
+}
+
+.term-pair {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  gap: 0.6rem 1rem;
+  margin: 0.9rem 2.6rem;
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.term-pair dt {
+  color: var(--hci-purple);
+  font-weight: 900;
+}
+
+.term-pair dd {
+  margin: 0;
+  color: var(--hci-text);
+}
+
+/* ===== Code, tables, images ===== */
+pre {
+  margin: 0.75rem 2.6rem;
+  padding: 0;
+  background: #f5f5f5;
+  border-left: 0.35rem solid var(--hci-purple);
+}
+
+pre code {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: var(--hci-text);
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+}
+
+table {
+  width: calc(100% - 5.2rem);
+  margin: 0.8rem 2.6rem;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+th {
+  background: var(--hci-text);
+  color: #ffffff;
+}
+
+td,
+th {
+  padding: 0.45rem 0.65rem;
+  border: 1px solid #d9d9d9;
+}
+
+blockquote {
+  margin: 0.9rem 2.6rem;
+  padding: 0.6rem 1rem;
+  border-left: 0.45rem solid var(--hci-purple);
+  background: #f5f5f5;
+  color: var(--hci-text);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img.screen,
+.screen img,
+.screenshot {
+  display: block;
+  max-width: calc(100% - 5.2rem);
+  max-height: 29rem;
+  margin: 0.8rem auto;
+  border: 2px solid #d9d9d9;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+
+/* ===== Compact variants ===== */
+section.compact p,
+section.compact li {
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+section.compact h2 {
+  font-size: 1.45rem;
+  margin-top: 1rem;
+}
+
+section.large p,
+section.large li {
+  font-size: 1.4rem;
+}
+
+section.large h2 {
+  font-size: 1.9rem;
+}
