@@ -19,6 +19,35 @@ _class: title
 
 ---
 
+<!--
+_class: toc
+-->
+
+# 目次
+
+<div class="toc-grid">
+  <ol>
+    <li>今日やること</li>
+    <li>まずは全体像</li>
+    <li>MVPを決める</li>
+    <li>GitHubを用意する</li>
+    <li>Codespacesを開く</li>
+    <li>自分の作業部屋を作る</li>
+    <li>少しだけ変更して記録する</li>
+  </ol>
+  <ol start="8">
+    <li>ネット上のコード置き場へ送る</li>
+    <li>合体の確認依頼を出す</li>
+    <li>Vue.jsで最初の画面を作る</li>
+    <li>AIに手伝ってもらう</li>
+    <li>よくある詰まりポイント</li>
+    <li>最後の確認</li>
+    <li>補足</li>
+  </ol>
+</div>
+
+---
+
 <style scoped>
 h1 {
     text-align: center;
@@ -33,6 +62,15 @@ h2 {
 </style>
 
 # 今日やること
+
+<div class="section-outline">
+  <div class="outline-item outline-current">今日やること</div>
+  <div class="outline-item outline-muted">まずは全体像</div>
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+</div>
 
 ---
 
@@ -75,6 +113,16 @@ h2 {
 </style>
 
 # まずは全体像
+
+<div class="section-outline">
+  <div class="outline-item outline-muted">今日やること</div>
+  <div class="outline-item outline-current">まずは全体像</div>
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+</div>
 
 ---
 
@@ -139,6 +187,17 @@ h2 {
 
 # MVPを決める
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">今日やること</div>
+  <div class="outline-item outline-muted">まずは全体像</div>
+  <div class="outline-item outline-current">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+</div>
+
 ---
 
 ## MVP（最小限だけど価値が伝わる形）を1つに絞る
@@ -192,6 +251,18 @@ h2 {
 </style>
 
 # GitHubを用意する
+
+<div class="section-outline">
+  <div class="outline-item outline-muted">今日やること</div>
+  <div class="outline-item outline-muted">まずは全体像</div>
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-current">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+</div>
 
 ---
 
@@ -250,6 +321,19 @@ h2 {
 
 # Codespacesを開く
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">今日やること</div>
+  <div class="outline-item outline-muted">まずは全体像</div>
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-current">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+</div>
+
 ---
 
 ## Codespaces（ブラウザで開く開発用PC）を使う
@@ -301,6 +385,20 @@ h2 {
 </style>
 
 # 自分の作業部屋を作る
+
+<div class="section-outline">
+  <div class="outline-item outline-muted">今日やること</div>
+  <div class="outline-item outline-muted">まずは全体像</div>
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-current">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+</div>
 
 ---
 
@@ -360,6 +458,20 @@ h2 {
 </style>
 
 # 少しだけ変更して記録する
+
+<div class="section-outline">
+  <div class="outline-item outline-muted">まずは全体像</div>
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-current">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+</div>
 
 ---
 
@@ -432,6 +544,20 @@ h2 {
 
 # ネット上のコード置き場へ送る
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">MVPを決める</div>
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-current">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+  <div class="outline-item outline-muted">最後の確認</div>
+</div>
+
 ---
 
 ## Push（ネット上のコード置き場へ送る）をする
@@ -485,6 +611,20 @@ h2 {
 </style>
 
 # 合体の確認依頼を出す
+
+<div class="section-outline">
+  <div class="outline-item outline-muted">GitHubを用意する</div>
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-current">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+  <div class="outline-item outline-muted">最後の確認</div>
+  <div class="outline-item outline-muted">補足</div>
+</div>
 
 ---
 
@@ -570,6 +710,19 @@ h2 {
 
 # Vue.jsで最初の画面を作る
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">Codespacesを開く</div>
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-current">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+  <div class="outline-item outline-muted">最後の確認</div>
+  <div class="outline-item outline-muted">補足</div>
+</div>
+
 ---
 
 ## 技術スタック（使う道具の組み合わせ）を決める
@@ -648,6 +801,18 @@ h2 {
 
 # AIに手伝ってもらう
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-current">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+  <div class="outline-item outline-muted">最後の確認</div>
+  <div class="outline-item outline-muted">補足</div>
+</div>
+
 ---
 
 ## AI（相談役の自動補助ツール）には、いきなり全部作らせない
@@ -704,6 +869,17 @@ h2 {
 
 # よくある詰まりポイント
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-current">よくある詰まりポイント</div>
+  <div class="outline-item outline-muted">最後の確認</div>
+  <div class="outline-item outline-muted">補足</div>
+</div>
+
 ---
 
 ## 詰まったら情報をそろえて相談する
@@ -757,6 +933,16 @@ h2 {
 
 # 最後の確認
 
+<div class="section-outline">
+  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+  <div class="outline-item outline-current">最後の確認</div>
+  <div class="outline-item outline-muted">補足</div>
+</div>
+
 ---
 
 ## Week 2チェックリスト
@@ -800,6 +986,15 @@ h2 {
 </style>
 
 # 補足
+
+<div class="section-outline">
+  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
+  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
+  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
+  <div class="outline-item outline-muted">よくある詰まりポイント</div>
+  <div class="outline-item outline-muted">最後の確認</div>
+  <div class="outline-item outline-current">補足</div>
+</div>
 
 ---
 

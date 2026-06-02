@@ -307,6 +307,86 @@ section.section p {
   font-weight: 800;
 }
 
+/* ===== Table of contents and section outline ===== */
+section.toc {
+  padding: 3.2rem 3.6rem var(--hci-safe-bottom) 3.6rem;
+}
+
+section.toc h1 {
+  margin: 0 0 2rem 0;
+  padding: 0 0 0.7rem 0;
+  border-bottom: 2px solid var(--hci-text);
+  color: var(--hci-black);
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.toc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 0 0.2rem;
+}
+
+.toc-grid ol {
+  margin: 0;
+  padding-left: 2.4rem;
+  color: var(--hci-text);
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.toc-grid li {
+  margin: 0.72rem 0;
+  padding-left: 0.2rem;
+}
+
+.section-outline {
+  position: absolute;
+  right: 3rem;
+  bottom: 5.8rem;
+  width: 26.5rem;
+  padding: 0.65rem 0.85rem 0.7rem 0.95rem;
+  border-left: 0.35rem solid var(--hci-purple);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0.25rem 0.8rem rgba(23, 44, 81, 0.1);
+  font-size: 0.66rem;
+  font-weight: 800;
+  line-height: 1.28;
+}
+
+.section-outline::before {
+  content: "OUTLINE";
+  display: block;
+  margin: 0 0 0.25rem 0;
+  color: var(--hci-purple);
+  font-size: 0.52rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.outline-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.outline-current {
+  color: var(--hci-black);
+}
+
+.outline-current::before {
+  content: ">";
+  margin-right: 0.32rem;
+  color: var(--hci-purple);
+}
+
+.outline-muted {
+  color: #8f8f8f;
+}
+
 /* ===== Utility layouts ===== */
 .columns,
 .two-columns {
