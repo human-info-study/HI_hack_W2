@@ -67,9 +67,6 @@ h2 {
   <div class="outline-item outline-current">今日やること</div>
   <div class="outline-item outline-muted">まずは全体像</div>
   <div class="outline-item outline-muted">MVPを決める</div>
-  <div class="outline-item outline-muted">GitHubを用意する</div>
-  <div class="outline-item outline-muted">Codespacesを開く</div>
-  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
 </div>
 
 ---
@@ -119,9 +116,6 @@ h2 {
   <div class="outline-item outline-current">まずは全体像</div>
   <div class="outline-item outline-muted">MVPを決める</div>
   <div class="outline-item outline-muted">GitHubを用意する</div>
-  <div class="outline-item outline-muted">Codespacesを開く</div>
-  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
-  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
 </div>
 
 ---
@@ -193,9 +187,6 @@ h2 {
   <div class="outline-item outline-current">MVPを決める</div>
   <div class="outline-item outline-muted">GitHubを用意する</div>
   <div class="outline-item outline-muted">Codespacesを開く</div>
-  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
-  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
-  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
 </div>
 
 ---
@@ -253,15 +244,11 @@ h2 {
 # GitHubを用意する
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">今日やること</div>
   <div class="outline-item outline-muted">まずは全体像</div>
   <div class="outline-item outline-muted">MVPを決める</div>
   <div class="outline-item outline-current">GitHubを用意する</div>
   <div class="outline-item outline-muted">Codespacesを開く</div>
   <div class="outline-item outline-muted">自分の作業部屋を作る</div>
-  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
-  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
-  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
 </div>
 
 ---
@@ -322,16 +309,11 @@ h2 {
 # Codespacesを開く
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">今日やること</div>
-  <div class="outline-item outline-muted">まずは全体像</div>
   <div class="outline-item outline-muted">MVPを決める</div>
   <div class="outline-item outline-muted">GitHubを用意する</div>
   <div class="outline-item outline-current">Codespacesを開く</div>
   <div class="outline-item outline-muted">自分の作業部屋を作る</div>
   <div class="outline-item outline-muted">少しだけ変更して記録する</div>
-  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
-  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
-  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
 </div>
 
 ---
@@ -387,17 +369,11 @@ h2 {
 # 自分の作業部屋を作る
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">今日やること</div>
-  <div class="outline-item outline-muted">まずは全体像</div>
-  <div class="outline-item outline-muted">MVPを決める</div>
   <div class="outline-item outline-muted">GitHubを用意する</div>
   <div class="outline-item outline-muted">Codespacesを開く</div>
   <div class="outline-item outline-current">自分の作業部屋を作る</div>
   <div class="outline-item outline-muted">少しだけ変更して記録する</div>
   <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
-  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
-  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
-  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
 </div>
 
 ---
@@ -460,17 +436,11 @@ h2 {
 # 少しだけ変更して記録する
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">まずは全体像</div>
-  <div class="outline-item outline-muted">MVPを決める</div>
-  <div class="outline-item outline-muted">GitHubを用意する</div>
   <div class="outline-item outline-muted">Codespacesを開く</div>
   <div class="outline-item outline-muted">自分の作業部屋を作る</div>
   <div class="outline-item outline-current">少しだけ変更して記録する</div>
   <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
   <div class="outline-item outline-muted">合体の確認依頼を出す</div>
-  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
-  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
-  <div class="outline-item outline-muted">よくある詰まりポイント</div>
 </div>
 
 ---
@@ -545,17 +515,11 @@ h2 {
 # ネット上のコード置き場へ送る
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">MVPを決める</div>
-  <div class="outline-item outline-muted">GitHubを用意する</div>
-  <div class="outline-item outline-muted">Codespacesを開く</div>
   <div class="outline-item outline-muted">自分の作業部屋を作る</div>
   <div class="outline-item outline-muted">少しだけ変更して記録する</div>
   <div class="outline-item outline-current">ネット上のコード置き場へ送る</div>
   <div class="outline-item outline-muted">合体の確認依頼を出す</div>
   <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
-  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
-  <div class="outline-item outline-muted">よくある詰まりポイント</div>
-  <div class="outline-item outline-muted">最後の確認</div>
 </div>
 
 ---
@@ -613,17 +577,11 @@ h2 {
 # 合体の確認依頼を出す
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">GitHubを用意する</div>
-  <div class="outline-item outline-muted">Codespacesを開く</div>
-  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
   <div class="outline-item outline-muted">少しだけ変更して記録する</div>
   <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
   <div class="outline-item outline-current">合体の確認依頼を出す</div>
   <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
   <div class="outline-item outline-muted">AIに手伝ってもらう</div>
-  <div class="outline-item outline-muted">よくある詰まりポイント</div>
-  <div class="outline-item outline-muted">最後の確認</div>
-  <div class="outline-item outline-muted">補足</div>
 </div>
 
 ---
@@ -711,16 +669,11 @@ h2 {
 # Vue.jsで最初の画面を作る
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">Codespacesを開く</div>
-  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
-  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
   <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
   <div class="outline-item outline-muted">合体の確認依頼を出す</div>
   <div class="outline-item outline-current">Vue.jsで最初の画面を作る</div>
   <div class="outline-item outline-muted">AIに手伝ってもらう</div>
   <div class="outline-item outline-muted">よくある詰まりポイント</div>
-  <div class="outline-item outline-muted">最後の確認</div>
-  <div class="outline-item outline-muted">補足</div>
 </div>
 
 ---
@@ -802,15 +755,11 @@ h2 {
 # AIに手伝ってもらう
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">自分の作業部屋を作る</div>
-  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
-  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
   <div class="outline-item outline-muted">合体の確認依頼を出す</div>
   <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
   <div class="outline-item outline-current">AIに手伝ってもらう</div>
   <div class="outline-item outline-muted">よくある詰まりポイント</div>
   <div class="outline-item outline-muted">最後の確認</div>
-  <div class="outline-item outline-muted">補足</div>
 </div>
 
 ---
@@ -870,9 +819,6 @@ h2 {
 # よくある詰まりポイント
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">少しだけ変更して記録する</div>
-  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
-  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
   <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
   <div class="outline-item outline-muted">AIに手伝ってもらう</div>
   <div class="outline-item outline-current">よくある詰まりポイント</div>
@@ -934,9 +880,6 @@ h2 {
 # 最後の確認
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">ネット上のコード置き場へ送る</div>
-  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
-  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
   <div class="outline-item outline-muted">AIに手伝ってもらう</div>
   <div class="outline-item outline-muted">よくある詰まりポイント</div>
   <div class="outline-item outline-current">最後の確認</div>
@@ -988,9 +931,6 @@ h2 {
 # 補足
 
 <div class="section-outline">
-  <div class="outline-item outline-muted">合体の確認依頼を出す</div>
-  <div class="outline-item outline-muted">Vue.jsで最初の画面を作る</div>
-  <div class="outline-item outline-muted">AIに手伝ってもらう</div>
   <div class="outline-item outline-muted">よくある詰まりポイント</div>
   <div class="outline-item outline-muted">最後の確認</div>
   <div class="outline-item outline-current">補足</div>
