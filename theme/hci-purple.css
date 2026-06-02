@@ -345,24 +345,25 @@ section.toc h1 {
 
 .section-outline {
   position: absolute;
-  right: 2.4rem;
-  bottom: 4.35rem;
-  width: 20rem;
-  padding: 0.48rem 0.65rem 0.52rem 0.75rem;
-  border-left: 0.28rem solid var(--hci-purple);
+  left: 50%;
+  bottom: 6.9rem;
+  width: 23rem;
+  padding: 0.58rem 0.8rem 0.62rem 0.9rem;
+  transform: translateX(-50%);
+  border-left: 0.32rem solid var(--hci-purple);
   background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 0.16rem 0.55rem rgba(23, 44, 81, 0.1);
-  font-size: 0.58rem;
+  box-shadow: 0 0.2rem 0.65rem rgba(23, 44, 81, 0.1);
+  font-size: 0.64rem;
   font-weight: 800;
-  line-height: 1.22;
+  line-height: 1.25;
 }
 
 .section-outline::before {
   content: "OUTLINE";
   display: block;
-  margin: 0 0 0.18rem 0;
+  margin: 0 0 0.22rem 0;
   color: var(--hci-purple);
-  font-size: 0.46rem;
+  font-size: 0.5rem;
   font-weight: 900;
   letter-spacing: 0.08em;
 }
