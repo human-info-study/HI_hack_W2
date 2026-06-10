@@ -1,0 +1,3 @@
+html: true
+template: bare
+theme: theme/hci-purple.css
