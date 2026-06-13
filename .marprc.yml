@@ -1,4 +1,4 @@
 html: true
-template: bare
+template: bespoke
 themeSet:
   - theme/hci-purple.css
