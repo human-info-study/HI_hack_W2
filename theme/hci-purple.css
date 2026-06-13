@@ -566,6 +566,8 @@ blockquote {
 img {
   max-width: 100%;
   height: auto;
+  max-height: 540px;
+  object-fit: contain;
 }
 
 img.screen,
@@ -573,7 +575,7 @@ img.screen,
 .screenshot {
   display: block;
   max-width: calc(100% - 5.2rem);
-  max-height: 29rem;
+  max-height: 540px;
   margin: 0.8rem auto;
   border: 2px solid #d9d9d9;
   border-radius: 0.5rem;
