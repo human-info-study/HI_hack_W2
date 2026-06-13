@@ -1,3 +1,4 @@
 html: true
-template: bare
-theme: theme/hci-purple.css
+template: bespoke
+themeSet:
+  - theme/hci-purple.css
