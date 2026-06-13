@@ -109,7 +109,7 @@ class: slides
 ---
 
 ## ブランチを分けるとどうなるの？ cont'd
-![img](./images/0a20068a996832e4.png)
+![img](./images/55cc8fa53e3a1621.png)
 
 ---
 
